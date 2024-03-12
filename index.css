@@ -1,0 +1,117 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to right, #c2e59c 0%, #64b3f4 100%);
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.home-text {
+  width: 291px;
+  font-size: 8rem;
+  align-self: center;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.home-text1 {
+  font-size: 4rem;
+}
+.home-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 48px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-link {
+  display: contents;
+}
+.home-icon {
+  width: 48px;
+  height: 48px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  text-decoration: none;
+  border-top-width: 2px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 0px;
+}
+.home-link1 {
+  display: contents;
+}
+.home-icon4 {
+  width: 48px;
+  height: 48px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  text-decoration: none;
+  border-top-width: 2px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 0px;
+}
+.home-link2 {
+  display: contents;
+}
+.home-icon6 {
+  width: 48px;
+  height: 48px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 1px;
+  text-decoration: none;
+  border-top-width: 2px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 0px;
+}
+@media(max-width: 1200px) {
+  .home-container2 {
+    top: 658px;
+    left: 524px;
+  }
+}
+@media(max-width: 991px) {
+  .home-text {
+    text-align: center;
+  }
+  .home-text1 {
+    text-align: center;
+  }
+  .home-container2 {
+    top: 682px;
+    left: 420px;
+  }
+}
+@media(max-width: 767px) {
+  .home-container2 {
+    position: static;
+  }
+}
+@media(max-width: 479px) {
+  .home-text {
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .home-text1 {
+    font-size: 3rem;
+  }
+  .home-container2 {
+    top: 660px;
+    left: 166px;
+  }
+}
